@@ -16,13 +16,13 @@
     * [Usage](#usage)
     * [Note](#note)
     * [Methods](#methods)
-        * [`basicInfo(sololearn_id)`](#basicInfo)
-        * [`userBadges(sololearn_id)`](#userBadges)
-        * [`userCompletedCourses(sololearn_id)`](#userCompletedCourses)
-        * [`codeUpvotes(sololearn_id)`](#codeUpvotes)
-        * [`allCodesLinks(sololearn_id)`](#allCodesLinks)
-        * [`allCoursesXp(sololearn_id)`](#allCoursesXp)
-        * [`plagroundCodes(section,language)`](#plagroundCodes)
+        * [`basicInfo(sololearn_id)`](#basicInfosololearn_id)
+        * [`userBadges(sololearn_id)`](#userBadgessololearn_id)
+        * [`userCompletedCourses(sololearn_id)`](#userCompletedCoursessololearn_id)
+        * [`codeUpvotes(sololearn_id)`](#codeUpvotessololearn_id)
+        * [`allCodesLinks(sololearn_id)`](#allCodesLinkssololearn_id)
+        * [`allCoursesXp(sololearn_id)`](#allCoursesXpsololearn_id)
+        * [`plagroundCodes(section,language)`](#plagroundCodessection,language)
     * [Errors](#errors)
     * [Types](#types)
         * [`sololearn_id`](#sololearn_id)
@@ -48,23 +48,23 @@ async function mainFuc() {
 `Every Method Returns Promise after resolving you get an object`
 
 ## Methods
-### `sololearn-explode.basicInfo(sololearn_id)`
+### `basicInfo(sololearn_id)`
 The `sololearn_id` argument should be a `number` and it returns `Promise` with basic user information.
-### `sololearn-explode.userBadges(sololearn_id)`
+### `userBadges(sololearn_id)`
 This method one argument `sololearn_id` and again should be a number returns `Promise` with  array of user badges.
 
-### `sololearn-explode.userCompletedCourses(sololearn_id)`
+### `userCompletedCourses(sololearn_id)`
 Again same takes on argument `sololearn_id`  should be a number returns `Promise` with  array of user completed courses.
-### `sololearn-explode.codeUpvotes(sololearn_id)`
+### `codeUpvotes(sololearn_id)`
 Yup again same as above return object with `Promise` user all codes title with total upvotes.
 
-### sololearn-explode.allCodesLinks(sololearn_id)
+### allCodesLinks(sololearn_id)
 returns object with code title and code link.
 
-### sololearn-explode.allCoursesXp(sololearn_id)
+### allCoursesXp(sololearn_id)
 returns user Xp per course again its object.
 
-## sololearn-explode.plagroundCodes(section,language)
+## plagroundCodes(section,language)
 Oh finally last one this method takes two args first `section` and second `language` both should be `String` reffer [Types](#types) for valid arguments.
 This method returns array of objects every object contains every info about code.
 
