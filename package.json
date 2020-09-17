@@ -1,6 +1,6 @@
 {
   "name": "sololearn-explode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get user data direct from sololearn",
   "main": "index.js",
   "scripts": {
