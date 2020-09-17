@@ -25,9 +25,9 @@
         * [`plagroundCodes(section,language)`](#plagroundCodessectionlanguage)
     * [Errors](#errors)
     * [Types](#types)
-        * [`sololearn_id`](#sololearn_id)
-        * [`section`](#section)
-        * [`language`](#language)
+        * sololearn_id
+        * section
+        * language
 
 ## Installation
 ```
