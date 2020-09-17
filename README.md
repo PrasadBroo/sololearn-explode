@@ -22,12 +22,12 @@
         * [`codeUpvotes(sololearn_id)`](#codeUpvotessololearn_id)
         * [`allCodesLinks(sololearn_id)`](#allCodesLinkssololearn_id)
         * [`allCoursesXp(sololearn_id)`](#allCoursesXpsololearn_id)
-        * [`plagroundCodes(section,language)`](#plagroundCodessection,language)
+        * [`plagroundCodes(section,language)`](#plagroundCodessectionlanguage)
     * [Errors](#errors)
     * [Types](#types)
-        * [`sololearn_id`](#sololearn_id)
-        * [`section`](#section)
-        * [`language`](#language)
+        * sololearn_id
+        * section
+        * language
 
 ## Installation
 ```
