@@ -40,7 +40,7 @@ const sololearnExplode = require('sololearn-explode');
 
 mainFuc();
 async function mainFuc() {
-    const user_basic_info = await sololearnExplode.basicInfo(16739592); // Returns object
+    const user_basic_info = await sololearnExplode.basicInfo(13710268); // Returns object
     console.log(user_basic_info);
 }
 ```
@@ -58,13 +58,13 @@ Again same takes on argument `sololearn_id`  should be a number returns `Promise
 ### `codeUpvotes(sololearn_id)`
 Yup again same as above return object with `Promise` user all codes title with total upvotes.
 
-### allCodesLinks(sololearn_id)
+### `allCodesLinks(sololearn_id)`
 returns object with code title and code link.
 
-### allCoursesXp(sololearn_id)
+### `allCoursesXp(sololearn_id)`
 returns user Xp per course again its object.
 
-## plagroundCodes(section,language)
+### `plagroundCodes(section,language)`
 Oh finally last one this method takes two args first `section` and second `language` both should be `String` reffer [Types](#types) for valid arguments.
 This method returns array of objects every object contains every info about code.
 
