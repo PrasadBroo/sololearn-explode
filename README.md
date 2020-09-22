@@ -10,7 +10,7 @@
 [![MIT License][license-shield]][license-url]
 
 ## Contents
-* [`sololearn` v2.4.2](#sololearn-v242)
+* [`sololearn-explode` ](#sololearn-explode)
     * [Contents](#contents)
     * [Installation](#installation)
     * [Usage](#usage)
