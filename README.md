@@ -45,7 +45,7 @@ async function mainFuc() {
 }
 ```
 ## Note
-`Every Method Returns Promise after resolving you get an object`
+`Every Method Returns Promise, Object As Resolved Value`
 
 ## Methods
 ### `basicInfo(sololearn_id)`
